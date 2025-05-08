@@ -15,7 +15,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: 'http://localhost:4000'
+                url: 'http://localhost:5000'
             }
         ]
     },
@@ -115,5 +115,5 @@ app.get('/swagger.json', (req, res) => {
 });
 
 app.listen(4000, ()=>{
-    console.log('Se esta ejecutando en el puerto 4000...');
+    console.log('Se esta ejecutando en el puerto 5000...');
 });
